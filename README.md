@@ -2,9 +2,10 @@
 
 Este projeto é uma customização visual para o chat da Twitch, criado especialmente para ser usado com o sistema de cenas do [Sound Alerts](https://dashboard.soundalerts.com/scenes/new). O foco foi criar um **layout mais estilizado, limpo e envolvente** para o [RATOX](https://www.twitch.tv/ratox), que faz transmissões ao vivo e queria uma aparência única no chat que combinam com a identidade visual do canal.
 
-🛠️ Feito com:  
+🛠️ **Feito com:**
 - **CSS** puro  
 - Classes pré-definidas da interface do Sound Alerts
+<img width="1912" height="974" alt="image" src="https://github.com/user-attachments/assets/94f6d875-78f9-4969-a6b3-50654b9b58e8" />
 
 ## 📸 Preview
 
@@ -27,6 +28,7 @@ Este foi o meu **primeiro experimento criando um layout de chat personalizado**,
 ## 💛 Autoria
 
 Made by **honey** 🐝
+
 Sinta-se à vontade para entrar em contato comigo:
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=ffe100&color:FFF)](https://www.linkedin.com/in/mell-teixeira03/)
