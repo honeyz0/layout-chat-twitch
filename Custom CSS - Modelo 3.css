@@ -1,0 +1,88 @@
+/*Container geral*/
+.chat{
+  display:flex;
+  gap: 30px;
+}
+
+/*Mensagem do chat*/
+.chat__message {
+  font-family: "Montserrat", sans-serif;
+  font-size:24px;
+  color: black;
+  -webkit-text-stroke: 0;
+  line-height: 1.4;
+  display: block;
+}
+
+/*Chat background*/
+.chat__item {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 3px solid red;
+  border-radius: 50px;
+  padding: 35px 30px 30px 68px;
+  margin-bottom: 29px;
+  margin-left: 70px;
+  position: relative;
+}
+
+/* logo rosto */
+.chat__item-inner::before {
+  display: flex;
+  content:"";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 140px;
+  height: 250px;
+  background-image: url('https://i.imgur.com/4w5x7is.png'); /* logo avatar */
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
+  z-index: 1;
+  transform: rotate(3deg) translate(-60%, -30%);
+}
+
+/*logo ratox*/
+.chat__item-inner::after {
+  display: flex;
+  gap: 20px;
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  width: 150px;
+  height: 250px;
+  margin: 1px;
+  background-image: url('https://i.imgur.com/03lx514.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(3deg) translate(0%, -37%);
+  z-index: 1;
+}
+
+/*Usuário nome*/
+.chat__user {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  -webkit-text-stroke: 1;
+  color: black !important;
+}
+
+/*Usuário background*/
+.chat__metadata {
+  display: flex;
+  justify-items: center;
+  position: absolute;
+  top: -25px;
+  left: 30px;
+  border-radius: 12px;
+  padding: 5px 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  background-color: #e8765e;
+  border: 2px solid #4f150e;
+  border-radius: 50px;
+  z-index: 1;
+}
